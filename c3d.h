@@ -1,3 +1,9 @@
+/* Ncurses 3D library				*/
+/* Coded by ircsurfer33(at)gmail(dot)com	*/
+/*						*/
+/* Dependencies:				*/
+/* Ncurses					*/
+
 #include <ncurses.h>
 #include <stdlib.h>
 #include <math.h>

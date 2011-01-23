@@ -1,0 +1,13 @@
+Here's an explaination of how to use this:
+
+Cube2.c is basically the entire 'format' models must be in. You can change rendering methods using the 
+primary render function. I'm sure there's a simple way to convert objs to this format using a bash
+script of sorts, feel free to make one for everyone! :D
+
+And please, feel free to make edits and commit to the project!
+
+Here's how to compile:
+gcc -Wall c3d.c c3d.h cube2.c -o cube -lcurses -lm
+
+just replace cube2.c with your own model. This way of doing things will change.
+
