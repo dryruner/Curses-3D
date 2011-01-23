@@ -6,8 +6,8 @@ int main(void)
 { 
 	char keyboard;
 	
-	struct VERTEX vert[7];
-	struct FACE p[11];
+	struct VERTEX vert[8];
+	struct FACE p[12];
 	struct VERTEX cam;
 	
 	cam.x = 0;
@@ -29,7 +29,7 @@ int main(void)
 	
 
 	while(!controller(getchar(), &cam)){
-		renderModel(&vert[0], 8, &p[0], 3, &cam, 0, 2);
+		renderModel(&vert[0], 8, &p[0], 3, &cam, 0, 1);
 	}
 	
 	return 0; 

@@ -6,8 +6,6 @@ script of sorts, feel free to make one for everyone! :D
 
 And please, feel free to make edits and commit to the project!
 
-Here's how to compile:
-gcc -Wall c3d.c c3d.h cube2.c -o cube -lcurses -lm
-
-just replace cube2.c with your own model. This way of doing things will change.
-
+*PLEASE READ*
+Considering compilation, for some reason I cannot link c3d to the cube2 executable, anyone who knows what may
+be the problem please contact me @ ircsurfer33(at)gmail(dot)com
